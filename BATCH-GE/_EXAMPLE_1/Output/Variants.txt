@@ -1,0 +1,4 @@
+
+	Sample number 4 from /opt/NGS/WorkFlows/zebrafish/BATCH-GE/_EXAMPLE_1/Fastq/ is being analyzed ...
+	[Genome=danRer11]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads

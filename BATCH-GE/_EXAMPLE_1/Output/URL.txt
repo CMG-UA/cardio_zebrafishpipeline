@@ -1,0 +1,2 @@
+TrackName	Organism	Genome	Info	URL
+webdir	danRer11	danRer11	Sample4	http://genome.ucsc.edu/cgi-bin/hgTracks?db=danRer11&hgt.customText=http://medgenpr.ugent.be/UCSC/webdir/Pool-4-Run129_S4_pls3_sorted_remdup_rg_1_pls3.sorted.remdup.rg.track

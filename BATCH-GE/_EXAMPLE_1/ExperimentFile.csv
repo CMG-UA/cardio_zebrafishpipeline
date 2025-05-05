@@ -1,0 +1,2 @@
+FastqDir;SampleNumbers;Genome;CutSite;OutputDir;CutSitesFile;RepairSequence;
+/opt/NGS/WorkFlows/zebrafish/BATCH-GE/_EXAMPLE_1/Fastq/;4;danRer11;pls3;/opt/NGS/WorkFlows/zebrafish/BATCH-GE/_EXAMPLE_1/Output/;/opt/NGS/WorkFlows/zebrafish/BATCH-GE/_EXAMPLE_1/ZebrafishCutsites.bed;(G)TG(C)CACGTGGT(G)AA(T)ATTGGAGC[A];
