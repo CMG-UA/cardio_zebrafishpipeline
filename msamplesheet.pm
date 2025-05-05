@@ -115,7 +115,7 @@ sub generateMIPSSamplesheet {
 
 		## if double indexed, syntax of first column is <index>+<index2>
 		if($self->isDoubleIndex()) {
-			$line .= "+" . $self->getSampleIndex2($sample);
+			$line .= "" . $self->getSampleIndex2($sample);
 		}
 		$line .= "\t" . $sample . "\n";
 		## append line

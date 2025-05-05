@@ -8,9 +8,11 @@
 		<java>/opt/Software/java/sun-jre-8/bin/</java>
 		<mipslib>/opt/NGS/binaries/MIPS/0.5.0/lib/*</mipslib>
 		<!--<python>/opt/Software/python/3.6.3/bin/</python>-->
-		<python>/opt/Software/python3.5.2/bin/</python>
+		<python>/opt/software/Python-3.6.5/bin/python3</python>
 		<samtools>/opt/NGS/binaries/samtools/1.9</samtools>
 		<bedtools>/opt/NGS/binaries/BedTools/2.28.0/bin/</bedtools>
+                <mipspipeline>/home/tcremers/projects/smip_piper/*</mipspipeline>
+                <snakemake>/opt/software/Python-3.6.5/bin/snakemake</snakemake>
 	</binaries>
 	<data>
 		<forward>megapool_R1.fastq</forward>
@@ -33,13 +35,13 @@
 	<pbs>
 		<!-- <account>MIPS</account> -->
 		<failed>failed_jobs.txt</failed>
-		<queue>mips</queue>
+		<queue>zebrafish</queue>
 	</pbs>
 	<readlength>150</readlength>
 	<reference>
-		<fasta>/opt/NGS/WorkFlows/zebrafish/ref/danRer11.fasta</fasta>
-		<dbsnp>/opt/NGS/WorkFlows/zebrafish/ref/dbsnp_142.danRer11.vcf</dbsnp>
-		<danio>danRer11</danio>
+		<fasta>/opt/NGS/WorkFlows/zebrafish/BATCH-GE/genomes/hg38/hg38.fa</fasta>
+		<!-- <dbsnp>/opt/NGS/WorkFlows/zebrafish/ref/dbsnp_142.danRer11.vcf</dbsnp> -->
+		<danio>hg38</danio>
 	</reference>
 	<results>Efficiencies.txt</results>
 	<settings>
@@ -49,7 +51,7 @@
 		<mips_design>/opt/NGS/WorkFlows/zebrafish/config/70mer.txt</mips_design>
 		<batchge_cutsites>/opt/NGS/WorkFlows/zebrafish/config/ZebrafishCutsites.bed</batchge_cutsites>
 		<batchge_main>ExperimentFile.csv</batchge_main>	
-		<batchge_repair>GATGCCAGT(G)GG(C)C[G](A)CGTCCACG</batchge_repair>
+		<batchge_repair>TTGGAG[C]TGC(G)AC(A)TCACTAA</batchge_repair>
 	</settings>
 	<samplesheet>
 		<file>SampleSheet.csv</file>

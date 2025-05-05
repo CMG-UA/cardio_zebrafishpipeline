@@ -1,2 +1,0 @@
-FastqDir;SampleNumbers;Genome;CutSite;OutputDir;CutSitesFile;RepairSequence;
-%INPUT%;%SAMPLES%;%REFERENCE%;roi2;%RESULT%;%CUTSITES%;%REPAIR%

@@ -1,7 +1,5 @@
 # README #
 
-This pipeline is a copy of the pipeline on bitbucket with additions about how to use this pipelines for human cells.
-
 ### What is this repository for? ###
 
 * Genotyping SNPpanel using MIPS pipeline Nijmegen

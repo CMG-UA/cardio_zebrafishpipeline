@@ -14,13 +14,13 @@ use FindBin;
 use Getopt::Std;
 use Text::Table;
 use XML::Simple;
+use IO::Handle;
 
 # add current dir to include the packages
 use lib $FindBin::Bin;
 use msamplesheet;
 use mail;
 use pbs;
-
 
 
 ##########@@@@@@@@@@@@@@@  COMMAND LINE ARGUMENTS  & LOAD CONFIG FILES  @@@@@@@@@@@@@@@##########
@@ -105,8 +105,7 @@ while (my $rundir = scanForNew($config, $localconfig)) {
 	my $project = basename($rundir);
 	my $errormail = mail->new($frommail,$adminmail,"Problems encountered with MIPS run $project");
 
-
-	##########@@@@@@@@@@@@@@@  RUN FOLDER PREP  @@@@@@@@@@@@@@@##########	
+	##########@@@@@@@@@@@@@@@  RUN FOLDER PREP  @@@@@@@@@@@@@@@##########
 	# open log
 	open LOG, ">".catfile($rundir, "RunTimeOutput.txt");
 	print LOG "Analysing project: $project \n";
@@ -128,12 +127,6 @@ while (my $rundir = scanForNew($config, $localconfig)) {
 	my $tmpdir =  catfile($rundir, $config->{dirs}->{tmp});
 	if (! -d $tmpdir) {
 		mkdir $tmpdir or dieWithGrace("Can't create the qsub output directory '$tmpdir'", $project, $config, $localconfig);
-	}
-
-	my $rdir = $config->{dirs}->{results};
-	my $resultdir =  catfile($rundir, $rdir);
-	if (! -d $resultdir) {
-		mkdir $resultdir or dieWithGrace("Can't create the qsub output directory '$resultdir'", $project, $config, $localconfig);
 	}
 
 	## delete old MIPS dirs (unless we're re-using it)
@@ -196,7 +189,6 @@ while (my $rundir = scanForNew($config, $localconfig)) {
 			if (! $samplesheet->getSampleFASTQs($sample, 'fwd')) {
 				next;
 			}
-			
 			# get index data
 			my (@i1reads, @i2reads);
 			my $i1file = shift @{$samplesheet->getSampleFASTQs($sample, 'i1')};
@@ -222,7 +214,7 @@ while (my $rundir = scanForNew($config, $localconfig)) {
 
 				my $index;
 				if ($samplesheet->isDoubleIndex()) {
-					$index = join("+", ($i1reads[$i+1], $i2reads[$i+1]))
+					$index = join("", ($i1reads[$i+1], $i2reads[$i+1]))
 				}
 				else {
 					$index = $i1reads[$i+1];
@@ -250,111 +242,35 @@ while (my $rundir = scanForNew($config, $localconfig)) {
 
 	}
 
-	##########@@@@@@@@@@@@@@@  PREPARE UMCN PIPELINE  @@@@@@@@@@@@@@@##########
-	print LOG "2. UMCN Pipeline\n";
-	print LOG "\tCreate UMNC config files\n";
-	# design and target file																																																																   																																																																																						
-	my $mer = $config->{settings}{mips_design};
 
-	# make targets file
-	my $targetfile = catfile($rundir, $config->{targets});
-	system('awk \'BEGIN {OFS="\t" ;chr="chr"} { print chr$4,$13,$14,$1,$19 }\' '.$mer.' | tail -n +2 > ' . $targetfile) == 0 or dieWithGrace("Making targets.bed file failed", $project, $config, $localconfig);
-
-
-	## sample config
-	my $sconfigt = $config->{settings}{mips_samples};
-	my $sconfigt_full = catfile($codedir, 'config', $sconfigt);
-	if (! -e $sconfigt_full) {
-		dieWithGrace("The sample configuration template wasn't found in the script dir '$codedir'. Check if the main config file is correct", $project, $config, $localconfig);
-	}
-
-	my $sconfig = catfile($rundir, $sconfigt);
-	system("sed -e 's|%DATADIR%|$rundir|g' $sconfigt_full | sed -e 's|%MEGAPOOL%|$megapoolfile|g' | sed -e 's|%TARGETFILE%|$targetfile|g' | sed -e 's|%DESIGNFILE%|$mer|g' | sed -e 's|%CODEDIR%|$codedir|g' | sed -e 's|%PROJECT%|$project|g' | sed -e 's|%READLENGTH%|$readlength|' | sed -e 's|%R1%|$r1gzipfile|' | sed -e 's|%R2%|$r2gzipfile|' > $sconfig") == 0 or dieWithGrace("Making sample config file failed", $project, $config, $localconfig);
-
-	## pipeline config (reference data/binaries)
-	my $gatk = $config->{binaries}{gatk};
-	my $reference = $config->{reference}{fasta};
-	my $dbsnp = $config->{reference}{dbsnp};
-
-	my $pconfigt = $config->{settings}{mips_pipeline};
-	my $pconfigt_full = catfile($codedir, 'config', $pconfigt);
-	if (! -e $pconfigt_full) {
-		dieWithGrace("The pipeline configuration template wasn't found in the script dir '$codedir'. Check if the main config file is correct", $project, $config, $localconfig);
-	}
-
-	my $pconfig = catfile($rundir, $pconfigt);
-	system("sed -e 's|%REF%|$reference|g' $pconfigt_full | sed -e 's|%GATK%|$gatk|g' | sed -e 's|%DBSNP%|$dbsnp|g' > $pconfig") == 0 or dieWithGrace("Making UMNC pipeline config file failed", $project, $config, $localconfig);
+   ##########@@@@@@@@@@@@@@@  RUN SNAKEMAKE MIPS PIPELINE DEMULTIPLEXING  @@@@@@@@@@@@@@@##########
+   #Run setup
+   my $mipspipeline = $config->{binaries}{mipspipeline};
+   my $snakemake = $config->{binaries}{snakemake};                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+   my $mips_design = $config->{settings}{mips_design};    #mips design file
+   my $targetfile = catfile($rundir, $config->{targets});
+   system('awk \'BEGIN {OFS="\t" ;chr="chr"} { print chr$4,$13,$14,$1,$19 }\' '.$mips_design.' | tail -n +2 > ' . $targetfile) == 0 or dieWithGrace("Making targets.bed file failed", $project, $config, $localconfig);
+   chdir($rundir);
+   system("cp $mips_design .");
+   system("cp -r $mipspipeline .");
+   system("sed -i -e 's|\"forward_randomtag\" : 5|\"forward_randomtag\" : 8|g' -e 's|\"reverse_randomtag\" : 5|\"reverse_randomtag\" : 0|g' config.json");
+   system("sed -i -e 's|\"nextseq\" : false|\"nextseq\" : true|g' config.json");
+   system("sed -i -e 's|\"Undetermined_S0_L001_R1_001.fastq.gz\"|\"megapool_R1.fastq.gz\"|g' Snakefile");
+   system("sed -i -e 's|\"Undetermined_S0_L001_R2_001.fastq.gz\"|\"megapool_R2.fastq.gz\"|g' Snakefile");
+   
+   # run snakemake pipeline
+   system("$snakemake -R --until Preprocess --cluster \"qsub -q zebrafish -l mem=5G\" --latency-wait 100 --jobs 1");
+   # move .fastq results to jobtmp folder for BATCH-GE processing.
+   system("find fastq_per_sample/*fastq ! -name unknown* -exec mv {} $tmpdir \\\;");
+   
 
 
-	##########@@@@@@@@@@@@@@@  RUN UMCN PIPELINE  @@@@@@@@@@@@@@@##########
-	print LOG "\tRun UMCN pipelines";
-
-	my $javabin = $config->{binaries}{java};
-	my $bwabin = $config->{binaries}{bwa};
-	my $mipslib = $config->{binaries}{mipslib};
-
-
-	## create script using pbs.pm instead of from template file
-	my $job = pbs->new($rundir, "Map.$project.MIPS", $jodir, $tmpdir, $scriptsdir, $config->{pbs}->{failed});
-
-	#  my ($self, $cpu, $mem, $queue, $account, $additional, $email) = @_;
-	$job->header(16, 45, $rundir, $config->{pbs}->{queue},  $config->{pbs}->{account}, '', $localconfig->{email}->{admin});
-	$job->command("export PATH=$javabin:$bwabin:\$PATH", 1, 1);
-	# Run the Nijmegen pipeline up to bam files.
-	$job->command("java -Xms40G -Xmx40G -Dsnappy.disable=true -Dlogging.config=$codedir/config/logback.xml -cp \"$mipslib\" org.umcn.gen.mip.pipeline.RunMIPPipeline -sampleConfig $sconfig -environment EMPTY -overridePipelineConfig $pconfig", 1, 1);
-	# get the mip_out dir, assume the newest is the correct one.
-	$job->command("MIP_OUT=`cd $rundir ; ls -dt MIP_out_* | head -n 1`", 1, 1);
-	# build sample list
-	$job->command("ls $rundir/\$MIP_OUT/*bam | grep -v unknown.bam > $rundir/\$MIP_OUT/sampleList.list", 1, 1);
-	$job->finish();
-	
-	if ($config->{skip} > 1) {
-		print LOG " -->SKIPPED\n";
-	}
-
-	else {
-		$job->run();
-		
-		while (! $job->finished()) {
-			sleep $waittime;
-		}
-		checkPbsErrors($rundir, $config, $localconfig);
-
-		print LOG " --> DONE\n";
-	}
-
-
-	##########@@@@@@@@@@@@@@@  BATCH-GE GENOTYPING  @@@@@@@@@@@@@@@##########
-	print LOG "  3. BATCH-GE\n";
-
-	# samples with output
-	my @csamples;
-
-	print LOG "\tConvert MIPS BAM to FASTQ";
-	# find latest "MIP_out folder"
-	my $mipsoutput = `find $rundir -type d -name "MIP_out_*" -printf "%T@;%Tc;%p\n" | sort -n | tail -1 | cut -d';' -f3`;
-	chomp($mipsoutput);
-
-	my $samtoolsbin = $config->{binaries}{samtools};
-	my $bedtoolsbin = $config->{binaries}{bedtools};
-	$job = pbs->new($rundir, "Genotype.$project.BAMtoFASTQ", $jodir, $tmpdir, $scriptsdir, $config->{pbs}->{failed});
-	$job->header(16, 10, $rundir, $config->{pbs}->{queue},  $config->{pbs}->{account}, '', $localconfig->{email}->{admin});
-	$job->command("export PATH=$samtoolsbin:$bedtoolsbin:\$PATH", 1, 1);
-
-	# prepend with DATA_ for BATCH-GE script
-	foreach my $sample (@samples) {
-		my $r1file = catfile($tmpdir, "$sample\_R1.fastq");
-		my $r2file = catfile($tmpdir, "$sample\_R2.fastq");
-		my $bamfile = `find $mipsoutput -name "$sample*bam" | head -1`;
-		chomp($bamfile);
-		if ($bamfile) {
-			push(@csamples, $sample);
-			$job->command("samtools sort -n $bamfile | bedtools bamtofastq -i /dev/stdin -fq $r1file -fq2 $r2file", 1, 1);
-		}
-	}
+   ##########@@@@@@@@@@@@@@@  BATCH-GE GENOTYPING  @@@@@@@@@@@@@@@##########
 
 	# compress fastq files
-	$job->command("cd $tmpdir; for i in *fastq; do gzip \$i; done", 1, 1);
+	my $job = pbs->new($rundir, "Map.$project.MIPS", $jodir, $tmpdir, $scriptsdir, $config->{pbs}->{failed});
+	$job->header(16, 10, $rundir, $config->{pbs}->{queue},  $config->{pbs}->{account}, '', $localconfig->{email}->{admin});
+	$job->command("cd $tmpdir; for i in *fastq; do gzip -q \$i; done", 1, 0);
 	$job->finish();
 
 	if ($config->{skip} > 2) {
@@ -376,125 +292,226 @@ while (my $rundir = scanForNew($config, $localconfig)) {
 
 	print LOG "\tPrepare experiment file\n";
 
-	my $samplestring = join(",", @csamples);
-
-	my $batchge = $config->{binaries}{batchge};
-
+    my $python = $config->{binaries}{python};
+   	my $batchge = $config->{binaries}{batchge};
 
 	my $genome = $config->{reference}{danio};
 	my $cutsites = $config->{settings}{batchge_cutsites};
-	my $repair = $config->{settings}{batchge_repair};
+	my $repairs_strings = $config->{settings}{batchge_repair};
+	my @repairs = split /,/, $repairs_strings;
 
-	## experiment config
-	my $expconfigt = $config->{settings}{batchge_main};
-	my $expconfigt_full = catfile($codedir, 'config', $expconfigt);
-	if (! -e $expconfigt_full) {
-		dieWithGrace("The BATCHGE experiment template wasn't found in the script dir '$codedir'. Check if the main config file is correct", $project, $config, $localconfig);
+	#Get line number of start of samples
+	my $samplesheet_path = catfile($rundir, "SampleSheet.csv");
+	open my $samplesheet_handle, '<', $samplesheet_path;
+	my $sample_linenum;
+	while (<$samplesheet_handle>) {
+		$sample_linenum = $samplesheet_handle->input_line_number(), last if /Sample_ID,Sample_Name,Sample_Plate,Sample_Well,I7_Index_ID,index,I5_Index_ID,index2,Sample_Project,Description/
 	}
+	close $samplesheet_handle;
 
-	my $expconfig = catfile($rundir, $expconfigt);
-	system("sed -e 's|%INPUT%|$tmpdir/|g' $expconfigt_full | sed -e 's|%SAMPLES%|$samplestring|g' | sed -e 's|%REFERENCE%|$genome|g' | sed -e 's|%RESULT%|$resultdir/|g' | sed -e 's|%CUTSITES%|$cutsites|g' | sed -e 's|%REPAIR%|$repair|g' > $expconfig") == 0 or dieWithGrace("Making experiment config file failed", $project, $config, $localconfig);
-
-	print LOG "\tCalculate knock in efficiency";
-
-	## create script using pbs.pm instead of from template file
-	$job = pbs->new($rundir, "Genotype.$project.BATCHGE", $jodir, $tmpdir, $scriptsdir, $config->{pbs}->{failed});
-	#  my ($self, $cpu, $mem, $queue, $account, $additional, $email) = @_;
-	$job->header(16, 10, $rundir, $config->{pbs}->{queue},  $config->{pbs}->{account}, '', $localconfig->{email}->{admin});
-	$job->command("perl $batchge --ExperimentFile $expconfig", 1, 1);
-	$job->finish();
-
-	if ($config->{skip} > 2) {
-		print LOG " --> SKIPPED\n";
-	}
-
-	else {
-		$job->run();
-		
-		while (! $job->finished()) {
-			sleep $waittime;
+	#Loop of all repair sequences in the config files. Each repair sequence should correspond to 1 roi. roi should be numbered accordingly in the roi file.
+	foreach (my $j = 0; $j < scalar(@repairs); $j++) {
+		#From here roidir is the roi specific output directory for BATCH-GE
+		my $roidir = catfile($rundir, "roi$j");
+		if (! -d $roidir) {
+			mkdir $roidir or dieWithGrace("Can't create the roi specific output directory '$roidir'", $project, $config, $localconfig);
 		}
-		checkPbsErrors($rundir, $config, $localconfig);
+		#Create main result dir
+		my $rdir = $config->{dirs}->{results};
+		my $resultdir =  catfile($roidir, $rdir);
+		if (! -d $resultdir) {
+			mkdir $resultdir or dieWithGrace("Can't create the qsub output directory '$resultdir'", $project, $config, $localconfig);
+		}
+		my $repair = $repairs[$j];
 
+
+		my $samplestring = `awk -vORS=, 'BEGIN{FS=\",\"} NR>$sample_linenum {print \$1 }' $samplesheet_path`;
+		## experiment config
+		my $expconfigt = $config->{settings}{batchge_main};
+		my $expconfigt_full = catfile($codedir, 'config', $expconfigt);
+		if (! -e $expconfigt_full) {
+			dieWithGrace("The BATCHGE experiment template wasn't found in the script dir '$codedir'. Check if the main config file is correct", $project, $config, $localconfig);
+		}
+
+		#Split sample string into separate groups of n samples for parallel analysis
+		my $group_size = 50;
+		my @split_samplestring = split(',', $samplestring);
+		my @sample_groups;
+		push @sample_groups, [splice @split_samplestring, 0, $group_size] while @split_samplestring;
+		my $n_groups = scalar @sample_groups;
+
+		#loop over sample groups and prepare and start batch-ge jobs
+		my @jobs;
+		foreach (my $i = 0; $i < $n_groups; $i++) {
+			my $sample_group = join(",", @{@sample_groups[$i]});
+
+			my $group_scriptsdir = catfile($roidir, "job$i", $config->{dirs}->{scripts});
+			my $group_jodir = catfile($roidir, "job$i", $config->{dirs}->{jo});
+			my $group_tmpdir =  catfile($roidir, "job$i", $config->{dirs}->{tmp});
+			my $group_resultdir = catfile($roidir, "job$i", $config->{dirs}->{results});
+
+			chdir($roidir);
+			system("mkdir job$i");
+
+			# Make subdirs
+			if (! -d $group_scriptsdir) {
+				mkdir $group_scriptsdir or dieWithGrace("Can't create the qsub script directory '$group_scriptsdir'", $project, $config, $localconfig);
+			}
+			if (! -d $group_jodir) {
+				mkdir $group_jodir or dieWithGrace("Can't create the qsub output directory '$group_jodir'", $project, $config, $localconfig);
+			}
+			if (! -d $group_tmpdir) {
+				mkdir $group_tmpdir or dieWithGrace("Can't create the qsub output directory '$group_tmpdir'", $project, $config, $localconfig);
+			}
+			if (! -d $group_resultdir) {
+				mkdir $group_resultdir or dieWithGrace("Can't create the qsub output directory '$group_resultdir'", $project, $config, $localconfig);
+			}
+
+			my $expconfig = catfile($roidir, "job$i", $expconfigt);
+			system("sed -e 's|%INPUT%|$tmpdir/|g' $expconfigt_full | sed -e 's|%SAMPLES%|$sample_group|g' | sed -e 's|%REFERENCE%|$genome|g' | sed -e 's|%ROI%|roi$j|g' | sed -e 's|%RESULT%|$group_resultdir/|g' | sed -e 's|%CUTSITES%|$cutsites|g' | sed -e 's|%REPAIR%|$repair|g' > $expconfig") == 0 or dieWithGrace("Making experiment config file failed", $project, $config, $localconfig);
+
+			print LOG "\tCalculate knock in efficiency";
+
+			## create script using pbs.pm instead of from template file
+			$job = pbs->new("$roidir/job$i", "Genotype.$project.BATCHGE", $group_jodir, $group_tmpdir, $group_scriptsdir, $config->{pbs}->{failed});
+			#  my ($self, $cpu, $mem, $queue, $account, $additional, $email) = @_;
+			$job->header(16, 10, "$roidir/job$i", $config->{pbs}->{queue},  $config->{pbs}->{account}, '', $localconfig->{email}->{admin});
+			$job->command("perl $batchge --ExperimentFile $expconfig", 1, 1);
+
+			#Run zebrafish variant parser script to fill in insertion sequences in BATCH-GE's Variant result file
+			$job->command("$python ${codedir}/zebravisVariantParser.py -r $roidir/job$i -i roi$j", 1, 1);
+			$job->finish();
+			push(@jobs, $job);
+		}
+
+		#Wait for jobs to finish
+		if ($config->{skip} > 2) {
+			print LOG " --> SKIPPED\n";
+		}
+		else {
+			for my $job (@jobs){
+				$job->run();
+			}
+			sleep $waittime;
+			for my $job (@jobs){
+				#If job already finished before "finish" check, finished() function throws an error. Catch that error and continue.
+				my $job_finished = 0;
+				eval{
+						$job_finished = $job->finished();
+					};
+					if ($@) {
+						print LOG $@;
+						print LOG "job likely already exited\n";
+						$job_finished = 1;
+				};
+				while (! $job_finished) {
+					eval{
+						$job_finished = $job->finished();
+					};
+					if ($@) {
+						print LOG $@;
+						print LOG "job likely already exited\n";
+						$job_finished = 1;
+					};
+					sleep $waittime;
+				}
+			}
+
+			checkPbsErrors($roidir, $config, $localconfig);
+			print LOG " --> DONE\n";
+		}
+
+		#Stich results back together
+		foreach (my $i = 0; $i < $n_groups; $i++) {
+			#get result and log files
+			chdir("$roidir/job$i");
+			my @result_files=`find . -name "*.txt" -o -name "*.log*"`;
+			#Copy result dir structure to main resultdir
+			system("rsync -a --include '*/' --exclude '*' ./job_results/ $resultdir");
+			#Copy and merge this run's result and log file contents to main result dir.
+			foreach my $file (@result_files){
+				$file =~ s/\R//g;
+				system("cat $file >> $roidir/$file");
+			}
+		}
+
+		##########@@@@@@@@@@@@@@@  FINALIZE  @@@@@@@@@@@@@@@##########
+		# 	- Parse result file Efficiencies.txt
+		# 	- Send mail to notify analysis is finished and results to researcher
+
+		print LOG "4. Finalize\n";
+		print LOG "\tPrepare results\n";
+
+		my $filename = $config->{results};
+		my $resultfile = `find $resultdir -type f -name '$filename' | head -1`;
+		print "DEBUG: $resultfile\n";
+
+		chomp($resultfile);
+		if (! -e $resultfile) {
+			dieWithGrace("Resultsfile $resultfile was not found\n");
+		}
+
+		my %results;
+		my $csample;
+		#my $table = Text::Table->new("Sample", "Mutagenesis rate", "Repair efficiency");
+
+		open $in, '<', $resultfile;
+		while (<$in>) {
+			if ($_ =~ /^\tSample number (\S*) from/) {
+				$csample = $1;
+			}
+			if ($_ =~ /Mutagenesis efficiency for \S* is (\S*) \((\d*) readpairs with indel\(s\) versus (\d*) readpairs without indel\(s\)\)/) {
+				$results{$csample}{'mut'} = $2;
+				$results{$csample}{'total'} = $2 + $3;
+			}
+			if ($_ =~ /Repair efficiency for \S* is (\S*) \((\d*) readpairs with repair versus (\d*) readpairs in total\)/) {
+				$results{$csample}{'repair'} = $2;
+			}
+		}
+
+		## put data in array
+		my @output;
+		push (@output, "Staalnaam\tTotaal\tIndel\tKI");
+		for my $sample (keys %results) {
+			my ($mut, $repair);
+			my $total =  $results{$sample}{'total'};
+			if (exists $results{$sample}{'mut'}) {
+				$mut = $results{$sample}{'mut'};
+			}
+			else {
+				$mut = 0;
+			}
+
+			if (exists $results{$sample}{'repair'}) {
+				$repair = $results{$sample}{'repair'};
+			}
+			else {
+				$repair = 0;
+			}
+
+			push(@output, "$sample\t$total\t$mut\t$repair");
+		}
+
+		#$table->load(@output);
+
+
+		print LOG "\n\tSend mail\n";
+		my $finishmail = mail->new($frommail, $notifymail, "BATCH-GE analysis for $project is finished");
+
+		$finishmail->addtext("The following table shows the BATCH-GE efficiencies output:\n\n");
+		$finishmail->addtext(join("\r\n", @output));
+		# print to file
+		open my $outputfile, '>', catfile($roidir, "output_mail.txt");
+		print $outputfile join("\r\n", @output);
+		close $outputfile;
+
+		#my $texttable = $table->table();
+		#$finishmail->addtext($texttable);
+
+		$finishmail->sendmail();
+		chdir("$rundir/..");
 		print LOG " --> DONE\n";
 	}
-
-	##########@@@@@@@@@@@@@@@  FINALIZE  @@@@@@@@@@@@@@@##########
-	# 	- Parse result file Efficiencies.txt
-	# 	- Send mail to notify analysis is finished and results to researcher
-
-	print LOG "4. Finalize\n";
-	print LOG "\tPrepare results\n";
-
-	my $filename = $config->{results};
-	my $resultfile = `find $resultdir -type f -name '$filename' | head -1`;
-	print "DEBUG: $resultfile\n";
-
-	chomp($resultfile);
-	if (! -e $resultfile) {
-		dieWithGrace("Resultsfile $resultfile was not found\n");
-	}
-
-	my %results;
-	my $csample;
-	#my $table = Text::Table->new("Sample", "Mutagenesis rate", "Repair efficiency");
-
-	open $in, '<', $resultfile;
-	while (<$in>) {	
-		if ($_ =~ /^\tSample number (\S*) from/) {
-			$csample = $1;	
-		}
-		if ($_ =~ /Mutagenesis efficiency for \S* is (\S*) \((\d*) readpairs with indel\(s\) versus (\d*) readpairs without indel\(s\)\)/) {			
-			$results{$csample}{'mut'} = $2;
-			$results{$csample}{'total'} = $2 + $3;
-		}
-		if ($_ =~ /Repair efficiency for \S* is (\S*) \((\d*) readpairs with repair versus (\d*) readpairs in total\)/) {
-			$results{$csample}{'repair'} = $2;
-		}
-	}
-
-	## put data in array
-	my @output;
-	push (@output, "Staalnaam\tTotaal\tIndel\tKI");
-	for my $sample (keys %results) {
-		my ($mut, $repair);
-		my $total =  $results{$sample}{'total'};
-		if (exists $results{$sample}{'mut'}) {
-			$mut = $results{$sample}{'mut'};
-		}
-		else {
-			$mut = 0;
-		}
-
-		if (exists $results{$sample}{'repair'}) {
-			$repair = $results{$sample}{'repair'};
-		}
-		else {
-			$repair = 0;
-		}
-
-		push(@output, "$sample\t$total\t$mut\t$repair");
-	}
-
-	#$table->load(@output);
-
-
-	print LOG "\n\tSend mail\n";	
-	my $finishmail = mail->new($frommail, $notifymail, "BATCH-GE analysis for $project is finished");
-	
-	$finishmail->addtext("The following table shows the BATCH-GE efficiencies output:\n\n");
-	$finishmail->addtext(join("\r\n", @output));
-	# print to file
-	open my $outputfile, '>', catfile($rundir, "output_mail.txt");
-	print $outputfile join("\r\n", @output);
-	close $outputfile;
-
-	#my $texttable = $table->table();
-	#$finishmail->addtext($texttable);
-
-	$finishmail->sendmail();
-	print LOG " --> DONE\n";
-
 	## set status
 	setStatus($rundir, $config, 1);
 

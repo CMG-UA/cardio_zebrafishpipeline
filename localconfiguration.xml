@@ -1,12 +1,10 @@
 <config>
 	<archive>/mnt/storageshare/CMG/MIPS</archive>
-	<code>/opt/NGS/WorkFlows/zebrafish</code>
+	<code>/opt/NGS/WorkFlows/zebrafish/</code>
 	<email>
         	<from>LQTS.KI</from>
-        	<admin>philip.holmgren@uantwerpen.be</admin>
-        	<notify>philip.holmgren@uantwerpen.be,Ewa.Sieliwonczyk@uantwerpen.be,Bert.Vandendriessche@uantwerpen.be</notify>
-        	<!--<notify>Ewa.Sieliwonczyk@uantwerpen.be</notify>-->
-        	<!--<notify>philip.holmgren@uantwerpen.be</notify>-->
+        	<admin>tycho.cantercremers@uantwerpen.be</admin>
+        	<notify>tycho.cantercremers@uantwerpen.be</notify>
 	</email>	
 	<incoming>/home/pholmgren/Incoming_Data/</incoming>
 	
