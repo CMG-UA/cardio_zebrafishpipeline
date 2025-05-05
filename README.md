@@ -1,6 +1,9 @@
 # README #
 
+This pipeline is a copy of the pipeline on bitbucket with additions about how to use this pipelines for human cells. 
+based on the following: https://bitbucket.org/tychoCanterCremers/batch-ge_pipeline/src/master/
 ### What is this repository for? ###
+
 
 * Genotyping SNPpanel using MIPS pipeline Nijmegen
 * Input needed:
