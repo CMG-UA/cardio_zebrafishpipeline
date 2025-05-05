@@ -1,0 +1,507 @@
+
+	Sample number Kirsten-B1-1 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+chr20	49509586_49509585	INS	1	GACTACCCTG[]CTGCAATGTC	2	0.0192	104	M00984:451:000000000-DJ6PR:1:1101:26165:9617_TAGGTCTG
+chr20	49509587_49509586	INS	1	ACTACCCTGC[]TGCAATGTCA	18	0.1730	104	M00984:451:000000000-DJ6PR:1:1101:17064:7608_AGTGCAAG
+
+	Sample number Kirsten-B1-10 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+chr20	49509587_49509586	INS	1	ACTACCCTGC[]TGCAATGTCA	6	0.0011	5020	M00984:451:000000000-DJ6PR:1:1101:13073:4672_TGTAATCA
+
+	Sample number Kirsten-B1-11 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+chr20	49509582_49509584	DEL	3	GTGTGACTAC[CCT]GCTGCAATGT	2	0.0008	2252	M00984:451:000000000-DJ6PR:1:1102:21273:8278_GCCCCACA
+chr20	49509583_49509585	DEL	3	TGTGACTACC[CTG]CTGCAATGTC	134	0.0595	2252	M00984:451:000000000-DJ6PR:1:1101:10984:24259_AGTCTCGT
+chr20	49509587_49509586	INS	1	ACTACCCTGC[]TGCAATGTCA	450	0.1998	2252	M00984:451:000000000-DJ6PR:1:1101:10043:17348_AACAGCTC
+chr20	49509589_49509588	INS	1	TACCCTGCTG[]CAATGTCAAA	4	0.0017	2252	M00984:451:000000000-DJ6PR:1:1101:19555:28394_CGCCTTCC
+chr20	49509589_49509591	DEL	3	TACCCTGCTG[CAA]TGTCAAATCA	2	0.0008	2252	M00984:451:000000000-DJ6PR:1:1102:5039:16442_ACTTAACG
+chr20	49509590_49509589	INS	1	ACCCTGCTGC[]AATGTCAAAT	2	0.0008	2252	M00984:451:000000000-DJ6PR:1:1101:27527:20780_CTGGGAGC
+
+	Sample number Kirsten-B1-12 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+
+	Sample number Kirsten-B1-13 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+
+	Sample number Kirsten-B1-14 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+chr20	49509569_49509569	DEL	1	GAGATGGATG[T]TAGTGTGACT	2	0.0004	4162	M00984:451:000000000-DJ6PR:1:1102:12178:26640_ACTCCAGG
+chr20	49509587_49509586	INS	1	ACTACCCTGC[]TGCAATGTCA	1804	0.4334	4162	M00984:451:000000000-DJ6PR:1:1101:10031:23657_TGGCTGGA
+chr20	49509588_49509587	INS	1	CTACCCTGCT[]GCAATGTCAA	10	0.0024	4162	M00984:451:000000000-DJ6PR:1:1101:19952:24712_GATCTGCC
+chr20	49509589_49509588	INS	1	TACCCTGCTG[]CAATGTCAAA	10	0.0024	4162	M00984:451:000000000-DJ6PR:1:1101:10336:20132_TTTGTACA
+chr20	49509590_49509589	INS	1	ACCCTGCTGC[]AATGTCAAAT	4	0.0009	4162	M00984:451:000000000-DJ6PR:1:1101:17987:9115_AGGCGGCT
+
+	Sample number Kirsten-B1-15 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+chr20	49509587_49509586	INS	1	ACTACCCTGC[]TGCAATGTCA	136	0.5862	232	M00984:451:000000000-DJ6PR:1:1101:10492:9494_TGCAACGG
+chr20	49509588_49509587	INS	1	CTACCCTGCT[]GCAATGTCAA	2	0.0086	232	M00984:451:000000000-DJ6PR:1:1102:6222:9677_AGGTGCTG
+
+	Sample number Kirsten-B1-16 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+chr20	49509572_49509573	DEL	2	ATGGATGTTA[GT]GTGACTACCC	2	0.0008	2292	M00984:451:000000000-DJ6PR:1:1102:18597:27880_GACAAATA
+chr20	49509586_49509585	INS	1	GACTACCCTG[]CTGCAATGTC	4	0.0017	2292	M00984:451:000000000-DJ6PR:1:1102:11070:3574_AAGTCCGG
+chr20	49509587_49509586	INS	1	ACTACCCTGC[]TGCAATGTCA	1228	0.5357	2292	M00984:451:000000000-DJ6PR:1:1101:10061:18663_CGCCCTAA
+chr20	49509588_49509587	INS	1	CTACCCTGCT[]GCAATGTCAA	4	0.0017	2292	M00984:451:000000000-DJ6PR:1:1101:18490:9443_CTGCGATC
+chr20	49509589_49509588	INS	1	TACCCTGCTG[]CAATGTCAAA	6	0.0026	2292	M00984:451:000000000-DJ6PR:1:1101:15455:5028_ACGATTTT
+
+	Sample number Kirsten-B1-17 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+
+	Sample number Kirsten-B1-2 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+
+	Sample number Kirsten-B1-3 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+chr20	49509572_49509573	DEL	2	ATGGATGTTA[GT]GTGACTACCC	4	0.0016	2422	M00984:451:000000000-DJ6PR:1:1101:18054:27794_ATCCTATA
+chr20	49509587_49509586	INS	1	ACTACCCTGC[]TGCAATGTCA	420	0.1734	2422	M00984:451:000000000-DJ6PR:1:1101:10046:17110_ATACCAGA
+chr20	49509589_49509588	INS	1	TACCCTGCTG[]CAATGTCAAA	2	0.0008	2422	M00984:451:000000000-DJ6PR:1:1101:9401:5145_AATAGTTG
+
+	Sample number Kirsten-B1-4 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+chr20	49509586_49509585	INS	1	GACTACCCTG[]CTGCAATGTC	4	0.0015	2554	M00984:451:000000000-DJ6PR:1:1102:5323:16565_TATCTGGG
+chr20	49509587_49509586	INS	1	ACTACCCTGC[]TGCAATGTCA	892	0.3492	2554	M00984:451:000000000-DJ6PR:1:1101:10122:19124_ATATTCTC
+chr20	49509588_49509587	INS	1	CTACCCTGCT[]GCAATGTCAA	6	0.0023	2554	M00984:451:000000000-DJ6PR:1:1101:10764:15999_ATGTTGGT
+
+	Sample number Kirsten-B1-5 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+chr20	49509587_49509586	INS	1	ACTACCCTGC[]TGCAATGTCA	804	0.3624	2218	M00984:451:000000000-DJ6PR:1:1101:10374:8627_ATTTGTTA
+chr20	49509588_49509587	INS	1	CTACCCTGCT[]GCAATGTCAA	2	0.0009	2218	M00984:451:000000000-DJ6PR:1:1101:6280:6080_CCTATCCT
+chr20	49509589_49509588	INS	1	TACCCTGCTG[]CAATGTCAAA	4	0.0018	2218	M00984:451:000000000-DJ6PR:1:1102:10781:12924_TAATTGTT
+chr20	49509590_49509589	INS	1	ACCCTGCTGC[]AATGTCAAAT	2	0.0009	2218	M00984:451:000000000-DJ6PR:1:1102:21150:24161_TTAGTGTA
+
+	Sample number Kirsten-B1-6 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+chr20	49509569_49509569	DEL	1	GAGATGGATG[T]TAGTGTGACT	2	0.0009	2214	M00984:451:000000000-DJ6PR:1:1101:16396:11906_CGAACCAA
+chr20	49509581_49509581	DEL	1	AGTGTGACTA[C]CCTGCTGCAA	2	0.0009	2214	M00984:451:000000000-DJ6PR:1:1102:20971:14401_AGGACCAC
+chr20	49509587_49509586	INS	1	ACTACCCTGC[]TGCAATGTCA	698	0.3152	2214	M00984:451:000000000-DJ6PR:1:1101:10092:6910_AAAGATTG
+chr20	49509588_49509587	INS	1	CTACCCTGCT[]GCAATGTCAA	8	0.0036	2214	M00984:451:000000000-DJ6PR:1:1101:26238:11443_GAGGACCA
+
+	Sample number Kirsten-B1-7 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+chr20	49509586_49509585	INS	1	GACTACCCTG[]CTGCAATGTC	6	0.0026	2266	M00984:451:000000000-DJ6PR:1:1101:10988:18305_CATCACCT
+chr20	49509587_49509586	INS	1	ACTACCCTGC[]TGCAATGTCA	220	0.0970	2266	M00984:451:000000000-DJ6PR:1:1101:10067:16414_CACTTCCA
+chr20	49509588_49509587	INS	1	CTACCCTGCT[]GCAATGTCAA	2	0.0008	2266	M00984:451:000000000-DJ6PR:1:1102:21779:11346_TTTTTCTC
+
+	Sample number Kirsten-B1-8 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+
+	Sample number Kirsten-B1-9 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+
+	Sample number Kirsten-D1-1 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+chr20	49509570_49509571	DEL	2	AGATGGATGT[TA]GTGTGACTAC	2	0.0009	2102	M00984:451:000000000-DJ6PR:1:1101:23404:8970_GCAGAGAC
+chr20	49509571_49509572	DEL	2	GATGGATGTT[AG]TGTGACTACC	2	0.0009	2102	M00984:451:000000000-DJ6PR:1:1101:23404:8970_GCAGAGAC
+
+	Sample number Kirsten-D1-10 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+
+	Sample number Kirsten-D1-11 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+
+	Sample number Kirsten-D1-2 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+
+	Sample number Kirsten-D1-3 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+
+	Sample number Kirsten-D1-4 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+chr20	49509581_49509581	DEL	1	AGTGTGACTA[C]CCTGCTGCAA	2	0.0009	2094	M00984:451:000000000-DJ6PR:1:1101:20380:16949_TAAAAACG
+
+	Sample number Kirsten-D1-5 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+
+	Sample number Kirsten-D1-6 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+chr20	49509584_49509584	DEL	1	GTGACTACCC[T]GCTGCAATGT	2	0.0041	478	M00984:451:000000000-DJ6PR:1:1101:11230:21173_AGCTGTGC
+
+	Sample number Kirsten-D1-7 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+
+	Sample number Kirsten-D1-8 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+
+	Sample number Kirsten-D1-9 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+
+	Sample number Kirsten-D2-1 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+
+	Sample number Kirsten-D2-10 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+
+	Sample number Kirsten-D2-11 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+chr20	49509566_49509566	DEL	1	CAGGAGATGG[A]TGTTAGTGTG	0	0	5130	
+chr20	49509571_49509571	DEL	1	GATGGATGTT[A]GTGTGACTAC	2	0.0003	5130	M00984:451:000000000-DJ6PR:1:1102:24977:16691_ATTTTTGT
+chr20	49509581_49509580	INS	1	AGTGTGACTA[]CCCTGCTGCA	2	0.0003	5130	M00984:451:000000000-DJ6PR:1:1101:13916:14861_TGTACGGT
+chr20	49509588_49509588	DEL	1	CTACCCTGCT[G]CAATGTCAAA	0	0	5130	
+
+	Sample number Kirsten-D2-12 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+
+	Sample number Kirsten-D2-13 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+chr20	49509581_49509580	INS	1	AGTGTGACTA[]CCCTGCTGCA	2	0.0004	4802	M00984:451:000000000-DJ6PR:1:1102:10944:21996_ATTTATTT
+
+	Sample number Kirsten-D2-14 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+chr20	49509560_49509565	DEL	6	AGTTACCAGG[AGATGG]ATGTTAGTGT	0	0	8266	
+chr20	49509561_49509566	DEL	6	GTTACCAGGA[GATGGA]TGTTAGTGTG	0	0	8266	
+chr20	49509562_49509567	DEL	6	TTACCAGGAG[ATGGAT]GTTAGTGTGA	0	0	8266	
+chr20	49509563_49509565	DEL	3	TACCAGGAGA[TGG]ATGTTAGTGT	0	0	8266	
+chr20	49509565_49509570	DEL	6	CCAGGAGATG[GATGTT]AGTGTGACTA	0	0	8266	
+chr20	49509566_49509568	DEL	3	CAGGAGATGG[ATG]TTAGTGTGAC	0	0	8266	
+chr20	49509566_49509571	DEL	6	CAGGAGATGG[ATGTTA]GTGTGACTAC	0	0	8266	
+
+	Sample number Kirsten-D2-15 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+
+	Sample number Kirsten-D2-16 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+
+	Sample number Kirsten-D2-17 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+chr20	49509562_49509561	INS	8	TTACCAGGAG[]ATGGATGTTA	0	0	3616	
+chr20	49509581_49509581	DEL	1	AGTGTGACTA[C]CCTGCTGCAA	2	0.0005	3616	M00984:451:000000000-DJ6PR:1:1102:26108:19625_GTGTAAGG
+
+	Sample number Kirsten-D2-18 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+chr20	49509589_49509589	DEL	1	TACCCTGCTG[C]AATGTCAAAT	2	0.0008	2400	M00984:451:000000000-DJ6PR:1:1101:11295:14352_TAAATCTT
+
+	Sample number Kirsten-D2-19 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+
+	Sample number Kirsten-D2-2 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+chr20	49509581_49509580	INS	1	AGTGTGACTA[]CCCTGCTGCA	2	0.0009	2022	M00984:451:000000000-DJ6PR:1:1101:11214:23097_ATGGCCCC
+
+	Sample number Kirsten-D2-20 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+
+	Sample number Kirsten-D2-21 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+
+	Sample number Kirsten-D2-22 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+
+	Sample number Kirsten-D2-3 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+
+	Sample number Kirsten-D2-4 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+chr20	49509565_49509567	DEL	3	CCAGGAGATG[GAT]GTTAGTGTGA	0	0	2134	
+chr20	49509566_49509568	DEL	3	CAGGAGATGG[ATG]TTAGTGTGAC	0	0	2134	
+
+	Sample number Kirsten-D2-5 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+
+	Sample number Kirsten-D2-6 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+chr20	49509569_49509569	DEL	1	GAGATGGATG[T]TAGTGTGACT	2	0.0014	1374	M00984:451:000000000-DJ6PR:1:1102:10663:8296_CCGGATTT
+
+	Sample number Kirsten-D2-7 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+chr20	49509569_49509569	DEL	1	GAGATGGATG[T]TAGTGTGACT	2	0.0009	2198	M00984:451:000000000-DJ6PR:1:1101:7394:7350_TCTCTACA
+chr20	49509571_49509571	DEL	1	GATGGATGTT[A]GTGTGACTAC	2	0.0009	2198	M00984:451:000000000-DJ6PR:1:1101:7394:7350_TCTCTACA
+
+	Sample number Kirsten-D2-8 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+
+	Sample number Kirsten-D2-9 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+chr20	49509585_49509585	DEL	1	TGACTACCCT[G]CTGCAATGTC	2	0.0003	6430	M00984:451:000000000-DJ6PR:1:1102:20414:9801_ACCCAGAC
+
+	Sample number Kirsten-B1-18 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+
+	Sample number Kirsten-B1-19 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+chr20	49509581_49509581	DEL	1	AGTGTGACTA[C]CCTGCTGCAA	4	0.0025	1596	M00984:451:000000000-DJ6PR:1:1101:20147:24315_TCTATGCT
+chr20	49509587_49509586	INS	1	ACTACCCTGC[]TGCAATGTCA	820	0.5137	1596	M00984:451:000000000-DJ6PR:1:1101:10015:6278_CAAGTGTT
+chr20	49509588_49509587	INS	1	CTACCCTGCT[]GCAATGTCAA	2	0.0012	1596	M00984:451:000000000-DJ6PR:1:1101:10979:6656_CCGGCTCT
+
+	Sample number Kirsten-B1-20 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+chr20	49509587_49509586	INS	1	ACTACCCTGC[]TGCAATGTCA	334	0.1428	2338	M00984:451:000000000-DJ6PR:1:1101:10193:11387_TGCTTAGG
+chr20	49509589_49509588	INS	1	TACCCTGCTG[]CAATGTCAAA	2	0.0008	2338	M00984:451:000000000-DJ6PR:1:1101:28635:19427_ATGGGTTG
+
+	Sample number Kirsten-B2-1 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+
+	Sample number Kirsten-B2-10 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+chr20	49509583_49509585	DEL	3	TGTGACTACC[CTG]CTGCAATGTC	74	0.0337	2192	M00984:451:000000000-DJ6PR:1:1101:11887:4905_ATCGCCTT
+chr20	49509587_49509586	INS	1	ACTACCCTGC[]TGCAATGTCA	186	0.0848	2192	M00984:451:000000000-DJ6PR:1:1101:10007:7970_GTGGCAGA
+chr20	49509589_49509588	INS	1	TACCCTGCTG[]CAATGTCAAA	2	0.0009	2192	M00984:451:000000000-DJ6PR:1:1102:8898:16480_TGGAGAAA
+
+	Sample number Kirsten-B2-11 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+
+	Sample number Kirsten-B2-12 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+chr20	49509569_49509569	DEL	1	GAGATGGATG[T]TAGTGTGACT	2	0.0004	4982	M00984:451:000000000-DJ6PR:1:1102:14548:2515_TCAAGTGG
+chr20	49509575_49509574	INS	1	GATGTTAGTG[]TGACTACCCT	1118	0.2244	4982	M00984:451:000000000-DJ6PR:1:1101:10130:6188_CACGTGAT
+chr20	49509576_49509575	INS	1	ATGTTAGTGT[]GACTACCCTG	10	0.0020	4982	M00984:451:000000000-DJ6PR:1:1101:2580:16031_TGCTGTAG
+chr20	49509577_49509576	INS	1	TGTTAGTGTG[]ACTACCCTGC	6	0.0012	4982	M00984:451:000000000-DJ6PR:1:1101:10232:15286_CTCTGCTA
+chr20	49509586_49509585	INS	1	GACTACCCTG[]CTGCAATGTC	6	0.0012	4982	M00984:451:000000000-DJ6PR:1:1101:11774:12458_TCGCTGTG
+chr20	49509586_49509594	DEL	9	GACTACCCTG[CTGCAATGT]CAAATCAAAA	4	0.0008	4982	M00984:451:000000000-DJ6PR:1:1101:15217:27344_GATCCGAC
+chr20	49509587_49509586	INS	1	ACTACCCTGC[]TGCAATGTCA	1832	0.3677	4982	M00984:451:000000000-DJ6PR:1:1101:10004:28024_GGCAGGGG
+chr20	49509588_49509587	INS	1	CTACCCTGCT[]GCAATGTCAA	14	0.0028	4982	M00984:451:000000000-DJ6PR:1:1101:12131:7839_GGCTCTTT
+chr20	49509589_49509588	INS	1	TACCCTGCTG[]CAATGTCAAA	12	0.0024	4982	M00984:451:000000000-DJ6PR:1:1101:11429:3253_ATAGGACG
+
+	Sample number Kirsten-B2-13 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+chr20	49509586_49509585	INS	1	GACTACCCTG[]CTGCAATGTC	2	0.0004	4602	M00984:451:000000000-DJ6PR:1:1101:9366:8233_TAGGATCC
+chr20	49509587_49509586	INS	1	ACTACCCTGC[]TGCAATGTCA	1392	0.3024	4602	M00984:451:000000000-DJ6PR:1:1101:10112:20408_GTCAATAT
+chr20	49509588_49509587	INS	1	CTACCCTGCT[]GCAATGTCAA	8	0.0017	4602	M00984:451:000000000-DJ6PR:1:1101:13119:17642_ATCCTGCG
+chr20	49509589_49509588	INS	1	TACCCTGCTG[]CAATGTCAAA	6	0.0013	4602	M00984:451:000000000-DJ6PR:1:1101:12231:4054_GTGGGTCG
+
+	Sample number Kirsten-B2-14 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+chr20	49509583_49509585	DEL	3	TGTGACTACC[CTG]CTGCAATGTC	8	0.0013	5770	M00984:451:000000000-DJ6PR:1:1101:5588:22354_TCTAAGAC
+chr20	49509587_49509586	INS	1	ACTACCCTGC[]TGCAATGTCA	32	0.0055	5770	M00984:451:000000000-DJ6PR:1:1101:10077:22243_CACTTTTG
+
+	Sample number Kirsten-B2-15 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+chr20	49509581_49509583	DEL	3	AGTGTGACTA[CCC]TGCTGCAATG	2	0.0014	1396	M00984:451:000000000-DJ6PR:1:1101:15432:8778_TGAACCCA
+chr20	49509583_49509585	DEL	3	TGTGACTACC[CTG]CTGCAATGTC	100	0.0716	1396	M00984:451:000000000-DJ6PR:1:1101:10521:28150_GCGGGTTC
+chr20	49509586_49509585	INS	1	GACTACCCTG[]CTGCAATGTC	4	0.0028	1396	M00984:451:000000000-DJ6PR:1:1102:26382:23714_GTCGTGCC
+chr20	49509587_49509586	INS	1	ACTACCCTGC[]TGCAATGTCA	582	0.4169	1396	M00984:451:000000000-DJ6PR:1:1101:10248:19760_GAGTACTC
+chr20	49509588_49509587	INS	1	CTACCCTGCT[]GCAATGTCAA	2	0.0014	1396	M00984:451:000000000-DJ6PR:1:1102:18334:5403_AGTTTCGA
+chr20	49509589_49509588	INS	1	TACCCTGCTG[]CAATGTCAAA	4	0.0028	1396	M00984:451:000000000-DJ6PR:1:1101:12118:5053_ATGCGTCT
+
+	Sample number Kirsten-B2-16 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+chr20	49509583_49509585	DEL	3	TGTGACTACC[CTG]CTGCAATGTC	986	0.4944	1994	M00984:451:000000000-DJ6PR:1:1101:10087:17523_GAGCCAAT
+chr20	49509586_49509585	INS	1	GACTACCCTG[]CTGCAATGTC	4	0.0020	1994	M00984:451:000000000-DJ6PR:1:1101:7056:12785_CTGGAACA
+chr20	49509587_49509586	INS	1	ACTACCCTGC[]TGCAATGTCA	992	0.4974	1994	M00984:451:000000000-DJ6PR:1:1101:10040:3474_ACTAGTGT
+chr20	49509588_49509587	INS	1	CTACCCTGCT[]GCAATGTCAA	2	0.0010	1994	M00984:451:000000000-DJ6PR:1:1102:15025:16826_GATATCTC
+chr20	49509588_49509590	DEL	3	CTACCCTGCT[GCA]ATGTCAAATC	6	0.0030	1994	M00984:451:000000000-DJ6PR:1:1101:19723:2927_CCTATCCT
+chr20	49509589_49509588	INS	1	TACCCTGCTG[]CAATGTCAAA	2	0.0010	1994	M00984:451:000000000-DJ6PR:1:1102:20573:24383_CACCATGG
+chr20	49509590_49509589	INS	1	ACCCTGCTGC[]AATGTCAAAT	2	0.0010	1994	M00984:451:000000000-DJ6PR:1:1102:14247:12422_CGATGGAT
+
+	Sample number Kirsten-B2-17 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+chr20	49509587_49509586	INS	1	ACTACCCTGC[]TGCAATGTCA	208	0.0923	2252	M00984:451:000000000-DJ6PR:1:1101:10275:3440_AACCTGGT
+chr20	49509588_49509587	INS	1	CTACCCTGCT[]GCAATGTCAA	2	0.0008	2252	M00984:451:000000000-DJ6PR:1:1102:21807:3685_TCCAGAGT
+chr20	49509589_49509588	INS	1	TACCCTGCTG[]CAATGTCAAA	4	0.0017	2252	M00984:451:000000000-DJ6PR:1:1102:10228:25959_CGCGGGGG
+
+	Sample number Kirsten-B2-18 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+chr20	49509569_49509569	DEL	1	GAGATGGATG[T]TAGTGTGACT	4	0.0005	7952	M00984:451:000000000-DJ6PR:1:1101:10295:17770_CGCGGTAT
+chr20	49509583_49509585	DEL	3	TGTGACTACC[CTG]CTGCAATGTC	488	0.0613	7952	M00984:451:000000000-DJ6PR:1:1101:10198:15790_TGTGGTTA
+chr20	49509585_49509587	DEL	3	TGACTACCCT[GCT]GCAATGTCAA	8	0.0010	7952	M00984:451:000000000-DJ6PR:1:1101:21693:18529_TTAGTTTC
+chr20	49509586_49509585	INS	1	GACTACCCTG[]CTGCAATGTC	8	0.0010	7952	M00984:451:000000000-DJ6PR:1:1101:10064:26221_TGCGCTCG
+chr20	49509587_49509586	INS	1	ACTACCCTGC[]TGCAATGTCA	2236	0.2811	7952	M00984:451:000000000-DJ6PR:1:1101:10060:6970_ATTGGGGA
+chr20	49509587_49509589	DEL	3	ACTACCCTGC[TGC]AATGTCAAAT	2	0.0002	7952	M00984:451:000000000-DJ6PR:1:1102:13834:12614_TGGGTTCA
+chr20	49509588_49509587	INS	1	CTACCCTGCT[]GCAATGTCAA	22	0.0027	7952	M00984:451:000000000-DJ6PR:1:1101:10812:16516_CCCCATAT
+chr20	49509588_49509590	DEL	3	CTACCCTGCT[GCA]ATGTCAAATC	2	0.0002	7952	M00984:451:000000000-DJ6PR:1:1102:5213:12590_GGTGTGAC
+chr20	49509589_49509588	INS	1	TACCCTGCTG[]CAATGTCAAA	18	0.0022	7952	M00984:451:000000000-DJ6PR:1:1101:13745:10641_TATCTTAT
+chr20	49509590_49509589	INS	1	ACCCTGCTGC[]AATGTCAAAT	4	0.0005	7952	M00984:451:000000000-DJ6PR:1:1101:14004:15052_GACCCAAT
+chr20	49509590_49509592	DEL	3	ACCCTGCTGC[AAT]GTCAAATCAA	2	0.0002	7952	M00984:451:000000000-DJ6PR:1:1101:2293:18112_CGACTTCT
+
+	Sample number Kirsten-B2-19 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+chr20	49509572_49509586	DEL	15	ATGGATGTTA[GTGTGACTACCCTGC]TGCAATGTCA	70	0.0111	6300	M00984:451:000000000-DJ6PR:1:1101:10251:23248_AGTGGAAA
+chr20	49509573_49509587	DEL	15	TGGATGTTAG[TGTGACTACCCTGCT]GCAATGTCAA	2	0.0003	6300	M00984:451:000000000-DJ6PR:1:1102:28013:13634_TGGGACGG
+chr20	49509574_49509588	DEL	15	GGATGTTAGT[GTGACTACCCTGCTG]CAATGTCAAA	10	0.0015	6300	M00984:451:000000000-DJ6PR:1:1101:10251:23248_AGTGGAAA
+chr20	49509575_49509574	INS	1	GATGTTAGTG[]TGACTACCCT	532	0.0844	6300	M00984:451:000000000-DJ6PR:1:1101:10127:9427_TTGTACGT
+chr20	49509575_49509589	DEL	15	GATGTTAGTG[TGACTACCCTGCTGC]AATGTCAAAT	2	0.0003	6300	M00984:451:000000000-DJ6PR:1:1102:7888:9385_TGAATCGT
+chr20	49509576_49509590	DEL	15	ATGTTAGTGT[GACTACCCTGCTGCA]ATGTCAAATC	4	0.0006	6300	M00984:451:000000000-DJ6PR:1:1101:17478:24070_AGGGATGC
+chr20	49509577_49509576	INS	1	TGTTAGTGTG[]ACTACCCTGC	6	0.0009	6300	M00984:451:000000000-DJ6PR:1:1101:22494:14436_ACAATTTC
+chr20	49509577_49509591	DEL	15	TGTTAGTGTG[ACTACCCTGCTGCAA]TGTCAAATCA	4	0.0006	6300	M00984:451:000000000-DJ6PR:1:1101:14464:19663_AATTATCT
+chr20	49509580_49509579	INS	1	TAGTGTGACT[]ACCCTGCTGC	4	0.0006	6300	M00984:451:000000000-DJ6PR:1:1102:24970:10362_TCACGATG
+chr20	49509583_49509585	DEL	3	TGTGACTACC[CTG]CTGCAATGTC	146	0.0231	6300	M00984:451:000000000-DJ6PR:1:1101:10700:19390_ATGCCTTT
+chr20	49509584_49509598	DEL	15	GTGACTACCC[TGCTGCAATGTCAAA]TCAAAACTCA	2	0.0003	6300	M00984:451:000000000-DJ6PR:1:1101:18309:18820_TCGTGCTG
+chr20	49509585_49509587	DEL	3	TGACTACCCT[GCT]GCAATGTCAA	4	0.0006	6300	M00984:451:000000000-DJ6PR:1:1101:6647:10409_TTTTTGAA
+chr20	49509586_49509585	INS	1	GACTACCCTG[]CTGCAATGTC	6	0.0009	6300	M00984:451:000000000-DJ6PR:1:1101:3262:21396_GATGGTGC
+chr20	49509587_49509586	INS	1	ACTACCCTGC[]TGCAATGTCA	2320	0.3682	6300	M00984:451:000000000-DJ6PR:1:1101:10156:25268_CAAAACAT
+chr20	49509588_49509587	INS	1	CTACCCTGCT[]GCAATGTCAA	10	0.0015	6300	M00984:451:000000000-DJ6PR:1:1101:2367:12618_CGGTAACG
+chr20	49509589_49509588	INS	1	TACCCTGCTG[]CAATGTCAAA	36	0.0057	6300	M00984:451:000000000-DJ6PR:1:1101:10357:20823_TCAACTAC
+chr20	49509590_49509589	INS	1	ACCCTGCTGC[]AATGTCAAAT	6	0.0009	6300	M00984:451:000000000-DJ6PR:1:1101:26445:22032_GATTGGAT
+
+	Sample number Kirsten-B2-2 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+
+	Sample number Kirsten-B2-3 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+
+	Sample number Kirsten-B2-4 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+chr20	49509583_49509585	DEL	3	TGTGACTACC[CTG]CTGCAATGTC	186	0.0729	2548	M00984:451:000000000-DJ6PR:1:1101:10150:5470_TTGGTTGA
+chr20	49509586_49509585	INS	1	GACTACCCTG[]CTGCAATGTC	2	0.0007	2548	M00984:451:000000000-DJ6PR:1:1101:14002:14291_GGAAACGT
+chr20	49509587_49509586	INS	1	ACTACCCTGC[]TGCAATGTCA	1052	0.4128	2548	M00984:451:000000000-DJ6PR:1:1101:10133:12873_CCAGTGCA
+chr20	49509588_49509587	INS	1	CTACCCTGCT[]GCAATGTCAA	2	0.0007	2548	M00984:451:000000000-DJ6PR:1:1102:25020:16971_GGTCGGGA
+
+	Sample number Kirsten-B2-5 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+chr20	49509569_49509569	DEL	1	GAGATGGATG[T]TAGTGTGACT	2	0.0006	2896	M00984:451:000000000-DJ6PR:1:1102:10177:27668_GTCACAGG
+chr20	49509573_49509573	DEL	1	TGGATGTTAG[T]GTGACTACCC	2	0.0006	2896	M00984:451:000000000-DJ6PR:1:1102:10177:27668_GTCACAGG
+chr20	49509586_49509585	INS	1	GACTACCCTG[]CTGCAATGTC	6	0.0020	2896	M00984:451:000000000-DJ6PR:1:1101:21894:16867_GGGTTTGA
+chr20	49509587_49509586	INS	1	ACTACCCTGC[]TGCAATGTCA	1214	0.4191	2896	M00984:451:000000000-DJ6PR:1:1101:10054:20079_GTGTAATA
+chr20	49509588_49509587	INS	1	CTACCCTGCT[]GCAATGTCAA	2	0.0006	2896	M00984:451:000000000-DJ6PR:1:1102:19598:20479_ATATTACC
+chr20	49509589_49509588	INS	1	TACCCTGCTG[]CAATGTCAAA	2	0.0006	2896	M00984:451:000000000-DJ6PR:1:1102:23981:11060_ACCTTCTT
+
+	Sample number Kirsten-B2-6 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+chr20	49509589_49509588	INS	1	TACCCTGCTG[]CAATGTCAAA	2	0.0006	3002	M00984:451:000000000-DJ6PR:1:1101:4978:14758_ACTTTTTA
+
+	Sample number Kirsten-B2-7 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+chr20	49509587_49509586	INS	1	ACTACCCTGC[]TGCAATGTCA	72	0.0287	2504	M00984:451:000000000-DJ6PR:1:1101:12283:8961_TAGATGTT
+chr20	49509589_49509589	DEL	1	TACCCTGCTG[C]AATGTCAAAT	2	0.0007	2504	M00984:451:000000000-DJ6PR:1:1102:17212:20417_TGTCATAC
+
+	Sample number Kirsten-B2-8 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+chr20	49509581_49509583	DEL	3	AGTGTGACTA[CCC]TGCTGCAATG	2	0.0008	2468	M00984:451:000000000-DJ6PR:1:1101:12300:8590_AGCGTTTC
+chr20	49509582_49509584	DEL	3	GTGTGACTAC[CCT]GCTGCAATGT	2	0.0008	2468	M00984:451:000000000-DJ6PR:1:1101:23619:6374_TAATGCTA
+chr20	49509583_49509585	DEL	3	TGTGACTACC[CTG]CTGCAATGTC	682	0.2763	2468	M00984:451:000000000-DJ6PR:1:1101:10235:3598_GCTTCGCT
+chr20	49509584_49509586	DEL	3	GTGACTACCC[TGC]TGCAATGTCA	2	0.0008	2468	M00984:451:000000000-DJ6PR:1:1102:11383:5204_TGCTGGTC
+chr20	49509585_49509587	DEL	3	TGACTACCCT[GCT]GCAATGTCAA	2	0.0008	2468	M00984:451:000000000-DJ6PR:1:1102:8757:9876_GGTTGGTT
+chr20	49509586_49509585	INS	1	GACTACCCTG[]CTGCAATGTC	2	0.0008	2468	M00984:451:000000000-DJ6PR:1:1102:16433:20738_GTGCTGTA
+chr20	49509587_49509586	INS	1	ACTACCCTGC[]TGCAATGTCA	726	0.2941	2468	M00984:451:000000000-DJ6PR:1:1101:10021:17926_GATCTTCT
+chr20	49509588_49509587	INS	1	CTACCCTGCT[]GCAATGTCAA	4	0.0016	2468	M00984:451:000000000-DJ6PR:1:1102:8459:10651_CTCTAATG
+chr20	49509590_49509589	INS	1	ACCCTGCTGC[]AATGTCAAAT	2	0.0008	2468	M00984:451:000000000-DJ6PR:1:1102:7692:18956_TGTGGACT
+
+	Sample number Kirsten-B2-9 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+Chromosome	Positions	Type	Length	FlankingSequence (+ strand)	AbsoluteFrequency	RelativeFrequency	NrOfReads	FirstContainingReadName
+chr20	49509569_49509569	DEL	1	GAGATGGATG[T]TAGTGTGACT	4	0.0015	2544	M00984:451:000000000-DJ6PR:1:1101:16031:6897_GGTGGAGA

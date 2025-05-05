@@ -1,0 +1,641 @@
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-B1-1
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.8076 (42 readpairs with repair versus 52 readpairs in total)
+
+				There are 41 readpairs with FULL HDR (on a total of 42 repairs)
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGTTGC (on a total of 42 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-B1-10
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.9593 (2408 readpairs with repair versus 2510 readpairs in total)
+
+				There are 2 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGTTGC (on a total of 2408 repairs)
+
+				There are 2405 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 2408 repairs)
+
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCATGCTGC (on a total of 2408 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-B1-11
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.7042 (793 readpairs with repair versus 1126 readpairs in total)
+
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCTTGCTGC (on a total of 793 repairs)
+
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGTTGC (on a total of 793 repairs)
+
+				There are 791 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 793 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-B1-12
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.9540 (1143 readpairs with repair versus 1198 readpairs in total)
+
+				There are 1141 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 1143 repairs)
+
+				There are 2 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGTTGC (on a total of 1143 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-B1-13
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.9517 (454 readpairs with repair versus 477 readpairs in total)
+
+				There are 454 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 454 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-B1-14
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.5329 (1109 readpairs with repair versus 2081 readpairs in total)
+
+				There are 552 readpairs with FULL HDR (on a total of 1109 repairs)
+				There are 551 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 1109 repairs)
+
+				There are 2 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCTTGCTGC (on a total of 1109 repairs)
+
+				There are 4 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGTTGC (on a total of 1109 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-B1-15
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.3706 (43 readpairs with repair versus 116 readpairs in total)
+
+				There are 43 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 43 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-B1-16
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.4380 (502 readpairs with repair versus 1146 readpairs in total)
+
+				There are 498 readpairs with FULL HDR (on a total of 502 repairs)
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCTTGCTGC (on a total of 502 repairs)
+
+				There are 3 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGTTGC (on a total of 502 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-B1-17
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.9483 (1174 readpairs with repair versus 1238 readpairs in total)
+
+				There are 1172 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 1174 repairs)
+
+				There are 2 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGTTGC (on a total of 1174 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-B1-3
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.7894 (956 readpairs with repair versus 1211 readpairs in total)
+
+				There are 207 readpairs with FULL HDR (on a total of 956 repairs)
+				There are 749 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 956 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-B1-4
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.6123 (782 readpairs with repair versus 1277 readpairs in total)
+
+				There are 395 readpairs with FULL HDR (on a total of 782 repairs)
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCTTGCTGC (on a total of 782 repairs)
+
+				There are 386 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 782 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-B1-5
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.6185 (686 readpairs with repair versus 1109 readpairs in total)
+
+				There are 256 readpairs with FULL HDR (on a total of 686 repairs)
+				There are 428 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 686 repairs)
+
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCTTGCTGC (on a total of 686 repairs)
+
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGTTGC (on a total of 686 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-B1-6
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.6603 (731 readpairs with repair versus 1107 readpairs in total)
+
+				There are 249 readpairs with FULL HDR (on a total of 731 repairs)
+				There are 3 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGTTGC (on a total of 731 repairs)
+
+				There are 479 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 731 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-B1-7
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.8570 (971 readpairs with repair versus 1133 readpairs in total)
+
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCATGCTGC (on a total of 971 repairs)
+
+				There are 969 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 971 repairs)
+
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGTTGC (on a total of 971 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-D1-1
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.9524 (1001 readpairs with repair versus 1051 readpairs in total)
+
+				There are 1001 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 1001 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-D1-10
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.9562 (524 readpairs with repair versus 548 readpairs in total)
+
+				There are 522 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 524 repairs)
+
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCGTGCTGC (on a total of 524 repairs)
+
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGTTGC (on a total of 524 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-D1-2
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.9611 (1114 readpairs with repair versus 1159 readpairs in total)
+
+				There are 1114 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 1114 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-D1-3
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.9665 (1069 readpairs with repair versus 1106 readpairs in total)
+
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCTTGCTGC (on a total of 1069 repairs)
+
+				There are 1068 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 1069 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-D1-4
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.9293 (973 readpairs with repair versus 1047 readpairs in total)
+
+				There are 972 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 973 repairs)
+
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCTTGCTGC (on a total of 973 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-D1-5
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.9576 (1153 readpairs with repair versus 1204 readpairs in total)
+
+				There are 1148 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 1153 repairs)
+
+				There are 3 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCTTGCTGC (on a total of 1153 repairs)
+
+				There are 2 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGTTGC (on a total of 1153 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-D1-6
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.9163 (219 readpairs with repair versus 239 readpairs in total)
+
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCATGCTGC (on a total of 219 repairs)
+
+				There are 217 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 219 repairs)
+
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCTTGCTGC (on a total of 219 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-D1-7
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.9541 (1083 readpairs with repair versus 1135 readpairs in total)
+
+				There are 2 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGTTGC (on a total of 1083 repairs)
+
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCTTGCTGC (on a total of 1083 repairs)
+
+				There are 1079 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 1083 repairs)
+
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGATGC (on a total of 1083 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-D1-8
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.955 (191 readpairs with repair versus 200 readpairs in total)
+
+				There are 191 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 191 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-D2-1
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.9587 (1186 readpairs with repair versus 1237 readpairs in total)
+
+				There are 1184 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 1186 repairs)
+
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGTTGC (on a total of 1186 repairs)
+
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCTTGCTGC (on a total of 1186 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-D2-10
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.9603 (1888 readpairs with repair versus 1966 readpairs in total)
+
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGATGC (on a total of 1888 repairs)
+
+				There are 1887 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 1888 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-D2-11
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.9524 (2443 readpairs with repair versus 2565 readpairs in total)
+
+				There are 2 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGTTGC (on a total of 2443 repairs)
+
+				There are 2440 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 2443 repairs)
+
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCATGCTGC (on a total of 2443 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-D2-12
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.9418 (1149 readpairs with repair versus 1220 readpairs in total)
+
+				There are 1147 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 1149 repairs)
+
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGTTGC (on a total of 1149 repairs)
+
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCTTGCTGC (on a total of 1149 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-D2-13
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.9579 (2300 readpairs with repair versus 2401 readpairs in total)
+
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGTTGC (on a total of 2300 repairs)
+
+				There are 2298 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 2300 repairs)
+
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCATGCTGC (on a total of 2300 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-D2-14
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.9494 (3924 readpairs with repair versus 4133 readpairs in total)
+
+				There are 3920 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 3924 repairs)
+
+				There are 3 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCTTGCTGC (on a total of 3924 repairs)
+
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGTTGC (on a total of 3924 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-D2-15
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.9510 (1573 readpairs with repair versus 1654 readpairs in total)
+
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCTTGCTGC (on a total of 1573 repairs)
+
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGGTGC (on a total of 1573 repairs)
+
+				There are 1571 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 1573 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-D2-16
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.9590 (1101 readpairs with repair versus 1148 readpairs in total)
+
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGTTGC (on a total of 1101 repairs)
+
+				There are 1100 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 1101 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-D2-17
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.9435 (1706 readpairs with repair versus 1808 readpairs in total)
+
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGTTGC (on a total of 1706 repairs)
+
+				There are 1705 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 1706 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-D2-18
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.9508 (1141 readpairs with repair versus 1200 readpairs in total)
+
+				There are 1140 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 1141 repairs)
+
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCTTGCTGC (on a total of 1141 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-D2-19
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.9551 (1086 readpairs with repair versus 1137 readpairs in total)
+
+				There are 1086 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 1086 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-D2-2
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.9545 (965 readpairs with repair versus 1011 readpairs in total)
+
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGTTGC (on a total of 965 repairs)
+
+				There are 964 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 965 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-D2-20
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.9597 (1001 readpairs with repair versus 1043 readpairs in total)
+
+				There are 997 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 1001 repairs)
+
+				There are 2 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGTTGC (on a total of 1001 repairs)
+
+				There are 2 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCTTGCTGC (on a total of 1001 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-D2-21
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.9609 (197 readpairs with repair versus 205 readpairs in total)
+
+				There are 197 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 197 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-D2-22
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.9615 (1201 readpairs with repair versus 1249 readpairs in total)
+
+				There are 1198 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 1201 repairs)
+
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCATGCTGC (on a total of 1201 repairs)
+
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGATGC (on a total of 1201 repairs)
+
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGTTGC (on a total of 1201 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-D2-4
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.9493 (1013 readpairs with repair versus 1067 readpairs in total)
+
+				There are 2 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGTTGC (on a total of 1013 repairs)
+
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCTTGCTGC (on a total of 1013 repairs)
+
+				There are 1010 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 1013 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-D2-5
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.9561 (1199 readpairs with repair versus 1254 readpairs in total)
+
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCTTGCTGC (on a total of 1199 repairs)
+
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGTTGC (on a total of 1199 repairs)
+
+				There are 1197 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 1199 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-D2-6
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.9475 (651 readpairs with repair versus 687 readpairs in total)
+
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGATGC (on a total of 651 repairs)
+
+				There are 650 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 651 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-D2-7
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.9408 (1034 readpairs with repair versus 1099 readpairs in total)
+
+				There are 1033 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 1034 repairs)
+
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGTTGC (on a total of 1034 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-D2-8
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.9480 (2374 readpairs with repair versus 2504 readpairs in total)
+
+				There are 2 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGTTGC (on a total of 2374 repairs)
+
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCTTGCTGC (on a total of 2374 repairs)
+
+				There are 2371 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 2374 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-D2-9
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.9539 (3067 readpairs with repair versus 3215 readpairs in total)
+
+				There are 3057 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 3067 repairs)
+
+				There are 3 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGATGC (on a total of 3067 repairs)
+
+				There are 3 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCTTGCTGC (on a total of 3067 repairs)
+
+				There are 4 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGTTGC (on a total of 3067 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-B1-18
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 1 (1 readpairs with repair versus 1 readpairs in total)
+
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 1 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-B1-19
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.4674 (373 readpairs with repair versus 798 readpairs in total)
+
+				There are 372 readpairs with FULL HDR (on a total of 373 repairs)
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGTTGC (on a total of 373 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-B1-20
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.8246 (964 readpairs with repair versus 1169 readpairs in total)
+
+				There are 108 readpairs with FULL HDR (on a total of 964 repairs)
+				There are 856 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 964 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-B2-1
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.9757 (564 readpairs with repair versus 578 readpairs in total)
+
+				There are 1 readpairs with FULL HDR (on a total of 564 repairs)
+				There are 563 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 564 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-B2-10
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.8476 (929 readpairs with repair versus 1096 readpairs in total)
+
+				There are 302 readpairs with FULL HDR (on a total of 929 repairs)
+				There are 621 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 929 repairs)
+
+				There are 5 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGTTGC (on a total of 929 repairs)
+
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCTTGCTGC (on a total of 929 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-B2-11
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.9552 (1173 readpairs with repair versus 1228 readpairs in total)
+
+				There are 1172 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 1173 repairs)
+
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGTTGC (on a total of 1173 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-B2-12
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.3773 (940 readpairs with repair versus 2491 readpairs in total)
+
+				There are 607 readpairs with FULL HDR (on a total of 940 repairs)
+				There are 327 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 940 repairs)
+
+				There are 2 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCATGTTGC (on a total of 940 repairs)
+
+				There are 2 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGTTGC (on a total of 940 repairs)
+
+				There are 2 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCTTGCTGC (on a total of 940 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-B2-13
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.6636 (1527 readpairs with repair versus 2301 readpairs in total)
+
+				There are 497 readpairs with FULL HDR (on a total of 1527 repairs)
+				There are 1025 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 1527 repairs)
+
+				There are 3 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGTTGC (on a total of 1527 repairs)
+
+				There are 2 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCTTGCTGC (on a total of 1527 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-B2-14
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.9438 (2723 readpairs with repair versus 2885 readpairs in total)
+
+				There are 1 readpairs with FULL HDR (on a total of 2723 repairs)
+				There are 2717 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 2723 repairs)
+
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCTTGCTGC (on a total of 2723 repairs)
+
+				There are 4 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGTTGC (on a total of 2723 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-B2-15
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.4799 (335 readpairs with repair versus 698 readpairs in total)
+
+				There are 333 readpairs with FULL HDR (on a total of 335 repairs)
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 335 repairs)
+
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCTTGCTGC (on a total of 335 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-B2-16
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.0030 (3 readpairs with repair versus 997 readpairs in total)
+
+				There are 3 readpairs with FULL HDR (on a total of 3 repairs)
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-B2-17
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.8596 (968 readpairs with repair versus 1126 readpairs in total)
+
+				There are 53 readpairs with FULL HDR (on a total of 968 repairs)
+				There are 912 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 968 repairs)
+
+				There are 2 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGTTGC (on a total of 968 repairs)
+
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCTTGCTGC (on a total of 968 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-B2-18
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.6219 (2473 readpairs with repair versus 3976 readpairs in total)
+
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGATGC (on a total of 2473 repairs)
+
+				There are 3 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGTTGC (on a total of 2473 repairs)
+
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCTTGCTGC (on a total of 2473 repairs)
+
+				There are 2468 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 2473 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-B2-19
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.4780 (1506 readpairs with repair versus 3150 readpairs in total)
+
+				There are 313 readpairs with FULL HDR (on a total of 1506 repairs)
+				There are 4 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCTTGCTGC (on a total of 1506 repairs)
+
+				There are 1189 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 1506 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-B2-3
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.95 (19 readpairs with repair versus 20 readpairs in total)
+
+				There are 19 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 19 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-B2-4
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.4929 (628 readpairs with repair versus 1274 readpairs in total)
+
+				There are 368 readpairs with FULL HDR (on a total of 628 repairs)
+				There are 260 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 628 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-B2-5
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.5490 (795 readpairs with repair versus 1448 readpairs in total)
+
+				There are 298 readpairs with FULL HDR (on a total of 795 repairs)
+				There are 493 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 795 repairs)
+
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCTTGCTGC (on a total of 795 repairs)
+
+				There are 3 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGTTGC (on a total of 795 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-B2-6
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.9427 (1415 readpairs with repair versus 1501 readpairs in total)
+
+				There are 1414 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 1415 repairs)
+
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGTTGC (on a total of 1415 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-B2-7
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.9321 (1167 readpairs with repair versus 1252 readpairs in total)
+
+				There are 37 readpairs with FULL HDR (on a total of 1167 repairs)
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCTTGCTGC (on a total of 1167 repairs)
+
+				There are 1129 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 1167 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-B2-8
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.4059 (501 readpairs with repair versus 1234 readpairs in total)
+
+				There are 165 readpairs with FULL HDR (on a total of 501 repairs)
+				There are 335 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 501 repairs)
+
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGTTGC (on a total of 501 repairs)
+
+
+	FastqDir /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ Sample Kirsten-B2-9
+	[Cutsite=roi0]
+				Repair efficiency for roi0 is 0.9622 (1224 readpairs with repair versus 1272 readpairs in total)
+
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCTTGCTGC (on a total of 1224 repairs)
+
+				There are 1 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGTTGC (on a total of 1224 repairs)
+
+				There are 1222 readpairs with PARTIAL HDR: GATGTTAGTGTGACTACCCTGCTGC (on a total of 1224 repairs)
+

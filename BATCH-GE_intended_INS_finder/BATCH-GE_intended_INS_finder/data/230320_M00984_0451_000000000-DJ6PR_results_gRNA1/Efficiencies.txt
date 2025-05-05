@@ -1,0 +1,671 @@
+
+	Sample number Kirsten-B1-1 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0.1923 (10 readpairs with indel(s) versus 42 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.8076 (42 readpairs with repair versus 52 readpairs in total)
+
+
+	Sample number Kirsten-B1-10 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0.0011 (3 readpairs with indel(s) versus 2507 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.9593 (2408 readpairs with repair versus 2510 readpairs in total)
+
+
+	Sample number Kirsten-B1-11 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0.2628 (296 readpairs with indel(s) versus 830 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.7042 (793 readpairs with repair versus 1126 readpairs in total)
+
+
+	Sample number Kirsten-B1-12 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0 (0 readpairs with indel(s) versus 1198 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.9540 (1143 readpairs with repair versus 1198 readpairs in total)
+
+
+	Sample number Kirsten-B1-13 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0 (0 readpairs with indel(s) versus 477 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.9517 (454 readpairs with repair versus 477 readpairs in total)
+
+
+	Sample number Kirsten-B1-14 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0.4392 (914 readpairs with indel(s) versus 1167 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.5329 (1109 readpairs with repair versus 2081 readpairs in total)
+
+
+	Sample number Kirsten-B1-15 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0.5948 (69 readpairs with indel(s) versus 47 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.3706 (43 readpairs with repair versus 116 readpairs in total)
+
+
+	Sample number Kirsten-B1-16 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0.5427 (622 readpairs with indel(s) versus 524 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.4380 (502 readpairs with repair versus 1146 readpairs in total)
+
+
+	Sample number Kirsten-B1-17 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0 (0 readpairs with indel(s) versus 1238 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.9483 (1174 readpairs with repair versus 1238 readpairs in total)
+
+
+	Sample number Kirsten-B1-2 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+
+	Sample number Kirsten-B1-3 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0.1750 (212 readpairs with indel(s) versus 999 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.7894 (956 readpairs with repair versus 1211 readpairs in total)
+
+
+	Sample number Kirsten-B1-4 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0.3531 (451 readpairs with indel(s) versus 826 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.6123 (782 readpairs with repair versus 1277 readpairs in total)
+
+
+	Sample number Kirsten-B1-5 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0.3660 (406 readpairs with indel(s) versus 703 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.6185 (686 readpairs with repair versus 1109 readpairs in total)
+
+
+	Sample number Kirsten-B1-6 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0.3206 (355 readpairs with indel(s) versus 752 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.6603 (731 readpairs with repair versus 1107 readpairs in total)
+
+
+	Sample number Kirsten-B1-7 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0.1006 (114 readpairs with indel(s) versus 1019 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.8570 (971 readpairs with repair versus 1133 readpairs in total)
+
+
+	Sample number Kirsten-B1-8 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+
+	Sample number Kirsten-B1-9 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+
+	Sample number Kirsten-D1-1 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0.0009 (1 readpairs with indel(s) versus 1050 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.9524 (1001 readpairs with repair versus 1051 readpairs in total)
+
+
+	Sample number Kirsten-D1-10 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0 (0 readpairs with indel(s) versus 548 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.9562 (524 readpairs with repair versus 548 readpairs in total)
+
+
+	Sample number Kirsten-D1-11 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+
+	Sample number Kirsten-D1-2 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0 (0 readpairs with indel(s) versus 1159 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.9611 (1114 readpairs with repair versus 1159 readpairs in total)
+
+
+	Sample number Kirsten-D1-3 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0 (0 readpairs with indel(s) versus 1106 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.9665 (1069 readpairs with repair versus 1106 readpairs in total)
+
+
+	Sample number Kirsten-D1-4 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0.0009 (1 readpairs with indel(s) versus 1046 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.9293 (973 readpairs with repair versus 1047 readpairs in total)
+
+
+	Sample number Kirsten-D1-5 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0 (0 readpairs with indel(s) versus 1204 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.9576 (1153 readpairs with repair versus 1204 readpairs in total)
+
+
+	Sample number Kirsten-D1-6 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0.0041 (1 readpairs with indel(s) versus 238 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.9163 (219 readpairs with repair versus 239 readpairs in total)
+
+
+	Sample number Kirsten-D1-7 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0 (0 readpairs with indel(s) versus 1135 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.9541 (1083 readpairs with repair versus 1135 readpairs in total)
+
+
+	Sample number Kirsten-D1-8 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0 (0 readpairs with indel(s) versus 200 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.955 (191 readpairs with repair versus 200 readpairs in total)
+
+
+	Sample number Kirsten-D1-9 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+
+	Sample number Kirsten-D2-1 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0 (0 readpairs with indel(s) versus 1237 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.9587 (1186 readpairs with repair versus 1237 readpairs in total)
+
+
+	Sample number Kirsten-D2-10 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0 (0 readpairs with indel(s) versus 1966 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.9603 (1888 readpairs with repair versus 1966 readpairs in total)
+
+
+	Sample number Kirsten-D2-11 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0.0007 (2 readpairs with indel(s) versus 2563 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.9524 (2443 readpairs with repair versus 2565 readpairs in total)
+
+
+	Sample number Kirsten-D2-12 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0 (0 readpairs with indel(s) versus 1220 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.9418 (1149 readpairs with repair versus 1220 readpairs in total)
+
+
+	Sample number Kirsten-D2-13 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0.0004 (1 readpairs with indel(s) versus 2400 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.9579 (2300 readpairs with repair versus 2401 readpairs in total)
+
+
+	Sample number Kirsten-D2-14 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0 (0 readpairs with indel(s) versus 4133 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.9494 (3924 readpairs with repair versus 4133 readpairs in total)
+
+
+	Sample number Kirsten-D2-15 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0 (0 readpairs with indel(s) versus 1654 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.9510 (1573 readpairs with repair versus 1654 readpairs in total)
+
+
+	Sample number Kirsten-D2-16 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0 (0 readpairs with indel(s) versus 1148 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.9590 (1101 readpairs with repair versus 1148 readpairs in total)
+
+
+	Sample number Kirsten-D2-17 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0.0005 (1 readpairs with indel(s) versus 1807 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.9435 (1706 readpairs with repair versus 1808 readpairs in total)
+
+
+	Sample number Kirsten-D2-18 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0.0008 (1 readpairs with indel(s) versus 1199 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.9508 (1141 readpairs with repair versus 1200 readpairs in total)
+
+
+	Sample number Kirsten-D2-19 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0 (0 readpairs with indel(s) versus 1137 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.9551 (1086 readpairs with repair versus 1137 readpairs in total)
+
+
+	Sample number Kirsten-D2-2 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0.0009 (1 readpairs with indel(s) versus 1010 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.9545 (965 readpairs with repair versus 1011 readpairs in total)
+
+
+	Sample number Kirsten-D2-20 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0 (0 readpairs with indel(s) versus 1043 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.9597 (1001 readpairs with repair versus 1043 readpairs in total)
+
+
+	Sample number Kirsten-D2-21 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0 (0 readpairs with indel(s) versus 205 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.9609 (197 readpairs with repair versus 205 readpairs in total)
+
+
+	Sample number Kirsten-D2-22 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0 (0 readpairs with indel(s) versus 1249 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.9615 (1201 readpairs with repair versus 1249 readpairs in total)
+
+
+	Sample number Kirsten-D2-3 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+
+	Sample number Kirsten-D2-4 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0 (0 readpairs with indel(s) versus 1067 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.9493 (1013 readpairs with repair versus 1067 readpairs in total)
+
+
+	Sample number Kirsten-D2-5 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0 (0 readpairs with indel(s) versus 1254 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.9561 (1199 readpairs with repair versus 1254 readpairs in total)
+
+
+	Sample number Kirsten-D2-6 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0.0014 (1 readpairs with indel(s) versus 686 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.9475 (651 readpairs with repair versus 687 readpairs in total)
+
+
+	Sample number Kirsten-D2-7 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0.0009 (1 readpairs with indel(s) versus 1098 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.9408 (1034 readpairs with repair versus 1099 readpairs in total)
+
+
+	Sample number Kirsten-D2-8 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0 (0 readpairs with indel(s) versus 2504 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.9480 (2374 readpairs with repair versus 2504 readpairs in total)
+
+
+	Sample number Kirsten-D2-9 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0.0003 (1 readpairs with indel(s) versus 3214 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.9539 (3067 readpairs with repair versus 3215 readpairs in total)
+
+
+	Sample number Kirsten-B1-18 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0 (0 readpairs with indel(s) versus 1 readpairs without indel(s))
+				Repair efficiency for roi0 is 1 (1 readpairs with repair versus 1 readpairs in total)
+
+
+	Sample number Kirsten-B1-19 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0.5175 (413 readpairs with indel(s) versus 385 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.4674 (373 readpairs with repair versus 798 readpairs in total)
+
+
+	Sample number Kirsten-B1-20 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0.1437 (168 readpairs with indel(s) versus 1001 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.8246 (964 readpairs with repair versus 1169 readpairs in total)
+
+
+	Sample number Kirsten-B2-1 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0 (0 readpairs with indel(s) versus 578 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.9757 (564 readpairs with repair versus 578 readpairs in total)
+
+
+	Sample number Kirsten-B2-10 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0.1195 (131 readpairs with indel(s) versus 965 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.8476 (929 readpairs with repair versus 1096 readpairs in total)
+
+
+	Sample number Kirsten-B2-11 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0 (0 readpairs with indel(s) versus 1228 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.9552 (1173 readpairs with repair versus 1228 readpairs in total)
+
+
+	Sample number Kirsten-B2-12 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0.6021 (1500 readpairs with indel(s) versus 991 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.3773 (940 readpairs with repair versus 2491 readpairs in total)
+
+
+	Sample number Kirsten-B2-13 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0.3059 (704 readpairs with indel(s) versus 1597 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.6636 (1527 readpairs with repair versus 2301 readpairs in total)
+
+
+	Sample number Kirsten-B2-14 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0.0069 (20 readpairs with indel(s) versus 2865 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.9438 (2723 readpairs with repair versus 2885 readpairs in total)
+
+
+	Sample number Kirsten-B2-15 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0.4957 (346 readpairs with indel(s) versus 352 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.4799 (335 readpairs with repair versus 698 readpairs in total)
+
+
+	Sample number Kirsten-B2-16 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0.9969 (994 readpairs with indel(s) versus 3 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.0030 (3 readpairs with repair versus 997 readpairs in total)
+
+
+	Sample number Kirsten-B2-17 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0.0950 (107 readpairs with indel(s) versus 1019 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.8596 (968 readpairs with repair versus 1126 readpairs in total)
+
+
+	Sample number Kirsten-B2-18 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0.3495 (1390 readpairs with indel(s) versus 2586 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.6219 (2473 readpairs with repair versus 3976 readpairs in total)
+
+
+	Sample number Kirsten-B2-19 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0.4977 (1568 readpairs with indel(s) versus 1582 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.4780 (1506 readpairs with repair versus 3150 readpairs in total)
+
+
+	Sample number Kirsten-B2-2 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+
+	Sample number Kirsten-B2-3 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0 (0 readpairs with indel(s) versus 20 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.95 (19 readpairs with repair versus 20 readpairs in total)
+
+
+	Sample number Kirsten-B2-4 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0.4874 (621 readpairs with indel(s) versus 653 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.4929 (628 readpairs with repair versus 1274 readpairs in total)
+
+
+	Sample number Kirsten-B2-5 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0.4233 (613 readpairs with indel(s) versus 835 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.5490 (795 readpairs with repair versus 1448 readpairs in total)
+
+
+	Sample number Kirsten-B2-6 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0.0006 (1 readpairs with indel(s) versus 1500 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.9427 (1415 readpairs with repair versus 1501 readpairs in total)
+
+
+	Sample number Kirsten-B2-7 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0.0295 (37 readpairs with indel(s) versus 1215 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.9321 (1167 readpairs with repair versus 1252 readpairs in total)
+
+
+	Sample number Kirsten-B2-8 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0.5753 (710 readpairs with indel(s) versus 524 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.4059 (501 readpairs with repair versus 1234 readpairs in total)
+
+
+	Sample number Kirsten-B2-9 from /home/tcremers/Incoming_Data/230320_M00984_0451_000000000-DJ6PR/job_tmp/ is being analyzed ...
+	[Genome=hg19]
+	[Cutsite=roi0]
+
+				0 readpairs with integration
+
+				Mutagenesis efficiency for roi0 is 0.0015 (2 readpairs with indel(s) versus 1270 readpairs without indel(s))
+				Repair efficiency for roi0 is 0.9622 (1224 readpairs with repair versus 1272 readpairs in total)
+
