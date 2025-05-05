@@ -1,2 +1,0 @@
-FastqDir;SampleNumbers;Genome;CutSite;OutputDir;CutSitesFile;RepairSequence;;
-/home/pholmgren/mips/BATCH-GE/_EXAMPLE_3/Fastq/;2;xenTro3;wnt3v2;/home/pholmgren/mips/BATCH-GE/_EXAMPLE_3/Output/;/home/pholmgren/mips/BATCH-GE/_EXAMPLE_3/XenopusCutsites.bed;;
